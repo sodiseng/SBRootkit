@@ -1,0 +1,8 @@
+#include "Driver.h"
+
+NTSTATUS DriverEntry(PDRIVER_OBJECT pDrvObj, PUNICODE_STRING pRegistry)
+{
+	UNREFERENCED_PARAMETER(pDrvObj);
+	UNREFERENCED_PARAMETER(pRegistry);
+	return STATUS_SUCCESS;
+}
